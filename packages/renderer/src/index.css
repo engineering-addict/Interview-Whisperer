@@ -1,0 +1,9 @@
+@import 'tailwindcss';
+@plugin "@tailwindcss/typography";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+pre {
+  padding: 0;
+  margin: 0 !important;
+}
